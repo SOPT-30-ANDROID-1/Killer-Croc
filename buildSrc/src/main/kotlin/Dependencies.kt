@@ -71,23 +71,3 @@ object ClassPathPlugins {
     const val hilt = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hiltVersion}"
     const val oss = "com.google.android.gms:oss-licenses-plugin:${Versions.ossPluginVersion}"
 }
-
-val Compose = listOf(
-    "androidx.activity:activity-compose:${Versions.activityKtxVersion}",
-    "androidx.compose.material:material:${Versions.composeVersion}",
-    "androidx.compose.animation:animation:${Versions.composeVersion}",
-    "androidx.compose.ui:ui:${Versions.composeVersion}",
-    "androidx.compose.ui:ui-tooling-preview:${Versions.composeVersion}",
-    "androidx.compose.foundation:foundation:${Versions.composeVersion}",
-    "androidx.compose.material:material-icons-core:${Versions.composeVersion}",
-    "androidx.compose.material:material-icons-extended:${Versions.composeVersion}",
-    "androidx.constraintlayout:constraintlayout-compose:1.0.0",
-    "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07",
-    "androidx.hilt:hilt-navigation-compose:1.0.0",
-    "androidx.paging:paging-compose:1.0.0-alpha14",
-    "io.coil-kt:coil-compose:1.4.0",
-)
-
-val ComposeDebug = listOf(
-    "androidx.compose.ui:ui-tooling:${Versions.composeVersion}"
-)

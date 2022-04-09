@@ -56,6 +56,7 @@ dependencies {
         implementation(coreKtx)
         implementation(appCompat)
         implementation(constraintLayout)
+        implementation(activity)
         implementation(fragment)
         implementation(lifeCycleKtx)
         implementation(lifecycleJava8)
