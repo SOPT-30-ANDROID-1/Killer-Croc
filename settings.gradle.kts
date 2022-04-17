@@ -13,4 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Android-Killer-Croc"
-include ':app'
+include (":app")
+include(":core-ui")
+include(":data")
+include(":domain")

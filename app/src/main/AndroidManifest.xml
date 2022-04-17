@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidKillerCroc">
         <activity
-            android:name=".MainActivity"
+            android:name=".home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.signup.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".auth.signin.SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
